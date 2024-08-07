@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: border-box;
+}
+.body{
+    background: url("background.webp");
+    height: 100vh;
+ 
+    background-size: 100vw 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index:-100;
+}
+
+.gamename{
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-size: 40px;
+    color:rgba(21, 20, 20, 0.776);
+    font-family: 'Reggae One', cursive;
+    /* background-color: rgb(203, 120, 120); */
+    
+}
+#board{
+    background:linear-gradient(rgb(163, 141, 44),rgb(2, 46, 10));
+    height:75vmin;
+    width:75vmin;
+    border: 1px solid rgb(255, 255, 255);
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(18,1fr);
+
+
+}
+.snake{
+    background-color: blue;
+    border: 2px solid white;
+    border-radius: 12px ;
+}
+.head{
+    background-color: purple;
+    
+
+    border: 3px solid white ;
+    border-radius:9px;
+    transform: scale(1.02);
+}
+.food{
+    background:radial-gradient(rgb(255, 186, 186),rgb(255, 0, 149));
+    border: 1.5px solid black;
+    border-radius: 12px;
+    
+    
+}
+.scoreboard{
+    display: flex;
+    gap: 10px;
+    font-size: 30px;;
+    margin-top:30px;
+    font-weight: bolder;
+    color:rgb(0, 0, 0);
+    font-family: 'Reggae One', cursive;
+    
+}
+#scoreBox{
+    margin-right: 50px;
+}
