@@ -1,41 +1,55 @@
-PAWN CHESS GAME
-Project Description
-The Pawn Chess Game is an interactive chess game that focuses on the movement and strategy of pawns. Developed using HTML, CSS, and JavaScript, this game simulates the standard rules of pawn movement in chess, including normal captures. The user-friendly interface provides real-time game status updates and move validations.
+A simple Snake Game built with JavaScript.
 
-Features
-Interactive Gameplay: Play the game with standard pawn movement rules.
-Pawn Movements: Supports normal captures.
-Real-Time Updates: Displays current game status and move validations.
-User-Friendly Interface: Designed for ease of use and intuitive gameplay.
-Live Demo
-You can play the game online by visiting the following link:
 
-https://varun9904.github.io/Pawn-Chess-Game/
-Usage
-Visit the Live Demo: Click on the link provided above.
-Start the Game: The game will load in your web browser.
-Make Moves: Click on pawns to move them according to standard chess rules.
-Win the Game: The game ends when one side's pawn reaches the opposite end of the board.
-Project Structure
-index.html: The main HTML file that structures the game.
-styles.css: Contains the CSS styles for the game interface.
-script.js: JavaScript file handling the game logic and interactions.
-Contributing
-Contributions to the Pawn Chess Game are welcome! If you have suggestions or improvements, please follow these steps:
 
-Fork the Repository: Fork the repository on GitHub
-Create a New Branch: git checkout -b feature/your-feature
-Commit Your Changes: git commit -am 'Add new feature'
-Push to the Branch: git push origin feature/your-feature
-Create a Pull Request: Submit your changes for review.
-License
-This project is licensed under the MIT License.
+Introduction:
 
-Contact
-For any inquiries or further information, please contact:
+This is a classic Snake Game where the player controls a snake to eat food, grow longer, and avoid collisions with itself or the game boundaries. The game features increasing difficulty as the snake grows longer and the score increases.
 
-Name: Varun Sharma
-Email: varun05772@gmail.com
-GitHub: varun9904
-Acknowledgements
-Thanks to the open-source community for their support and inspiration.
+
+Features:
+
+Movement: Control the snake using arrow keys or 'A' key for upward movement.
+Sound Effects: Includes sound effects for eating food, game over, and moving.
+Scoring System: Tracks the score and high score, which is saved in the browser's local storage.
+Increasing Speed: The speed of the snake increases as the score goes up.
+Responsive Design: Game board resizes based on the viewport.
+
+
+How to Play:
+
+Use the arrow keys to control the direction of the snake:
+Up: ArrowUp or A
+Down: ArrowDown
+Left: ArrowLeft
+Right: ArrowRight
+The objective is to eat the food that appears randomly on the board.
+Each time the snake eats food, it grows longer and the score increases.
+Avoid colliding with the walls or the snake's own body.
+The game ends when a collision occurs, and you can start a new game by pressing any key.
+
+
+Game Logic:
+
+Collision Detection: The game checks for collisions with the walls and the snake's body.
+Snake Movement: The snake moves in the direction of the last key press.
+Food Consumption: When the snake's head reaches the food, the snake grows longer, and a new piece of food appears on the board.
+Score Management: The score is updated each time the snake eats food. The high score is saved in local storage.
+
+
+Technologies Used:
+
+JavaScript: Core game logic and interactivity.
+HTML: Game structure and layout.
+CSS: Styling for the game elements.
+Audio: Sound effects for various game events.
+
+
+
+License:
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+
+Enjoy playing the Snake Game!
